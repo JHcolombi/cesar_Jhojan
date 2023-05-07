@@ -1,3 +1,4 @@
+import math
 import random
 import os
 intentos=0
@@ -24,31 +25,7 @@ def principio():
      if guiones==palabras:
          print(f"grandioso adivinaste ")    
      else:
-         print(f"lo siento la palabra era {palabras} ")        
-
-        
-       
-"""print (len(vector1))
-    while guiones != palabras and intentos <= 4:
-        print(palabras,guiones)
-        if leer_por_teclado in vector1:
-         for   i in vector1:
-            if leer_por_teclado in i:
-                 print(f" {leer_por_teclado} esta en el indice {vector1.index(i)} de la lista")
-                 intentos=intentos+1
-                 while intentos == 5:
-                     vector1.pop(5)
-                     vector1.pop(4)
-                     vector1.pop(3)
-                     vector1.pop(2)
-                     vector1.pop(1)
-                     vector1.pop(0)
-                     break
-        else:
-            intentos=intentos+1
-    print("vuelva otra vez")
-    return intentos"""
-    
+         print(f"lo siento la palabra era {palabras} ")            
 
 #esta devolviendo guiones determinado por la cantidad de palabras que tenga el elemento de la lista vector1
 def palabra():
